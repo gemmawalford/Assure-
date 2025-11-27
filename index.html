@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>New Product Sales Onboarding</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-circle">NP</div>
+    <div>
+      <h1>New Product Sales Onboarding</h1>
+      <p class="subtitle">Everything you need to confidently sell <strong>New Product Name</strong>.</p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <nav class="sidebar">
+      <h2>Onboarding Path</h2>
+      <ol class="nav-steps">
+        <li><button class="nav-link active" data-target="overview">1. Product Overview</button></li>
+        <li><button class="nav-link" data-target="persona">2. Ideal Customer & Use Cases</button></li>
+        <li><button class="nav-link" data-target="talk-track">3. Talk Tracks & Demo</button></li>
+        <li><button class="nav-link" data-target="objections">4. Objections Handling</button></li>
+        <li><button class="nav-link" data-target="assets">5. Assets & Links</button></li>
+        <li><button class="nav-link" data-target="quiz">6. Quick Quiz</button></li>
+      </ol>
+    </nav>
+
+    <section class="content">
+
+      <!-- 1. Product Overview -->
+      <section id="overview" class="panel active">
+        <h2>1. Product Overview</h2>
+        <p class="tagline"><strong>New Product Name:</strong> One sentence value proposition goes here.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>What it is</h3>
+            <p>
+              In 2–3 sentences, describe what the product does in plain language.
+              Avoid jargon. Focus on outcomes, not features.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Who it's for</h3>
+            <ul>
+              <li>Target Role 1 (e.g. Head of Operations)</li>
+              <li>Target Role 2 (e.g. CIO / CTO)</li>
+              <li>Company profile (e.g. 500–5,000 employees, regulated, multi-site)</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Top 3 Benefits</h3>
+            <ol>
+              <li><strong>Benefit 1</strong> – short description.</li>
+              <li><strong>Benefit 2</strong> – short description.</li>
+              <li><strong>Benefit 3</strong> – short description.</li>
+            </ol>
+          </article>
+        </div>
+
+        <div class="highlight-box">
+          <h3>30-second elevator pitch</h3>
+          <p>
+            “<em>We help [customer type] achieve [primary outcome] by [how the product works]. 
+            Unlike [old way / competitor], we [key differentiator].</em>”
+          </p>
+        </div>
+      </section>
+
+      <!-- 2. Ideal Customer & Use Cases -->
+      <section id="persona" class="panel">
+        <h2>2. Ideal Customer & Use Cases</h2>
+
+        <div class="card-grid two-col">
+          <article class="card">
+            <h3>Ideal Customer Profile (ICP)</h3>
+            <ul>
+              <li>Industry: e.g. Financial services / Social housing / Retail</li>
+              <li>Size: e.g. 1,000–10,000 employees</li>
+              <li>Tech maturity: e.g. Already using cloud / legacy stack</li>
+              <li>Key pains: e.g. manual reporting, slow decision-making</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Buyer Personas</h3>
+            <ul>
+              <li><strong>Economic buyer:</strong> e.g. CFO / CEO</li>
+              <li><strong>Champion:</strong> e.g. Head of Operations / Governance Lead</li>
+              <li><strong>Users:</strong> e.g. Analysts, CoSec team, front-line managers</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3>Core Use Cases</h3>
+        <ul class="checklist">
+          <li>Use case 1 – short description of the workflow.</li>
+          <li>Use case 2 – short description of the workflow.</li>
+          <li>Use case 3 – short description of the workflow.</li>
+        </ul>
+
+        <div class="highlight-box">
+          <h3>Discovery questions</h3>
+          <ul>
+            <li>“How are you currently doing &lt;problem area&gt; today?”</li>
+            <li>“What’s the impact when &lt;problem&gt; goes wrong?”</li>
+            <li>“If you could fix one thing this quarter, what would it be?”</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 3. Talk Tracks & Demo -->
+      <section id="talk-track" class="panel">
+        <h2>3. Talk Tracks & Demo Flow</h2>
+
+        <h3>Suggested call structure (30–45 mins)</h3>
+        <ol>
+          <li>3–5 mins: Rapport & agenda</li>
+          <li>10–15 mins: Discovery & qualification</li>
+          <li>15–20 mins: Tailored demo</li>
+          <li>5 mins: Next steps and timeline</li>
+        </ol>
+
+        <div class="card-grid two-col">
+          <article class="card">
+            <h3>Opening talk track</h3>
+            <p>
+              “<em>Thanks for taking the time today. I’d love to quickly understand how you’re
+              handling [problem area] now, share how other customers are approaching it, and then
+              show you how New Product Name could fit into your world.</em>”
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Demo storyline</h3>
+            <ol>
+              <li>Start: Show the main dashboard / “day in the life”.</li>
+              <li>Middle: Walk through 1–2 key workflows tied to their pain.</li>
+              <li>End: Show reporting / ROI or result of the workflow.</li>
+            </ol>
+          </article>
+        </div>
+
+        <div class="note">
+          <strong>Tip:</strong> Always tie each feature back to a business outcome, not just “look what this screen does”.
+        </div>
+      </section>
+
+      <!-- 4. Objections Handling -->
+      <section id="objections" class="panel">
+        <h2>4. Common Objections & Responses</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>“It’s too expensive.”</h3>
+            <p><strong>Reframe:</strong> Anchor on ROI, not price.</p>
+            <p>
+              “<em>Totally understand budget is tight. Most customers justify this by
+              looking at the cost of [manual process / risk / delays]. Typically we see
+              [X%] reduction in [cost/time] within [Y months]. Would it help to build
+              a simple ROI case together?</em>”
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>“We’re too busy to implement right now.”</h3>
+            <p><strong>Reframe:</strong> Emphasise low lift and support.</p>
+            <p>
+              “<em>That’s exactly why we simplified onboarding. Our team does most of the heavy
+              lifting, and typical customers go live in [time frame]. Could we walk through what
+              a lightweight rollout might look like for you?</em>”
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>“We already use another tool.”</h3>
+            <p><strong>Reframe:</strong> Differentiate, don’t attack.</p>
+            <p>
+              “<em>That makes sense, and we integrate well with many existing tools. Where we tend
+              to add value is [key differentiator]. Can I ask what you like / don’t like about your
+              current setup?</em>”
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 5. Assets & Links -->
+      <section id="assets" class="panel">
+        <h2>5. Assets & Links</h2>
+        <p>Central place for sales to grab what they need.</p>
+
+        <ul class="asset-list">
+          <li><a href="#" target="_blank" rel="noopener">One-page product overview (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Standard pitch deck (PPT)</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Demo environment & login details</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Battlecard vs Competitor A</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Customer case study pack</a></li>
+        </ul>
+
+        <div class="note">
+          <strong>Admin tip:</strong> Host these in your shared drive / sales enablement tool and keep this page’s links updated.
+        </div>
+      </section>
+
+      <!-- 6. Quick Quiz -->
+      <section id="quiz" class="panel">
+        <h2>6. Quick Quiz</h2>
+        <p>Check your understanding. Don’t worry – this is just for you.</p>
+
+        <form id="quiz-form">
+          <div class="quiz-question" data-correct="b">
+            <p><strong>1.</strong> What is the primary outcome New Product Name delivers?</p>
+            <label><input type="radio" name="q1" value="a" /> It adds more dashboards.</label>
+            <label><input type="radio" name="q1" value="b" /> It helps customers achieve the key business outcome you defined.</label>
+            <label><input type="radio" name="q1" value="c" /> It reduces the number of meetings.</label>
+          </div>
+
+          <div class="quiz-question" data-correct="c">
+            <p><strong>2.</strong> Who is the ideal champion for this product?</p>
+            <label><input type="radio" name="q2" value="a" /> Any junior user.</label>
+            <label><input type="radio" name="q2" value="b" /> Procurement only.</label>
+            <label><input type="radio" name="q2" value="c" /> The role you listed as the main operational owner (e.g. Head of Ops / Governance Lead).</label>
+          </div>
+
+          <div class="quiz-question" data-correct="a">
+            <p><strong>3.</strong> What should you always tie features back to?</p>
+            <label><input type="radio" name="q3" value="a" /> A business outcome the customer cares about.</label>
+            <label><input type="radio" name="q3" value="b" /> Your internal roadmap.</label>
+            <label><input type="radio" name="q3" value="c" /> How “cool” the UI looks.</label>
+          </div>
+
+          <button type="button" id="quiz-submit">Check answers</button>
+          <p id="quiz-result" class="quiz-result"></p>
+        </form>
+      </section>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Company Name – Sales Enablement</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
